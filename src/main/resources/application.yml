@@ -1,0 +1,17 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            clientId: a944df3b00a955cb3374
+            clientSecret: 389cfebc39f07307411a83c68ecd72c1c875b0a3
+          google:
+            client-id: 478621565019-a73lumsq9tj99jg0f6j1pjh6339rve89.apps.googleusercontent.com
+            client-secret: X4uO4xRCZPfO1O9p9IkCGGBF
+          examprep:
+            client-id: kip6gtjJAM0xsNPi5vCtygLIDtNPv2jM69inxL57
+            client-secret: 4up3NnaQvZtlUo2GUjCXg28oBAsiLd124Xxf3pls
+            authorization-grant-type: authorization_code
+            redirect-uri: http://localhost:8080/
+
